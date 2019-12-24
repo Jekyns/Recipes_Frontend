@@ -73,7 +73,6 @@ export default class Filter extends Component {
   };
 
   handleSubmit(event, page) {
-    debugger
     let params = {
       ingredients: '',
       order_field: 'title',
